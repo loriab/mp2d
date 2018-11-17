@@ -40,7 +40,7 @@ install:
   - pip install codecov
 
     # Build and install package
-  - conda build --python=$PYTHON_VER devtools/conda-recipe
+  - conda build --python=$PYTHON_VER devtools/conda-recipe -c psi4
   - conda install --use-local mp2d -c psi4
 
 
