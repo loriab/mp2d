@@ -10,7 +10,7 @@ DOCLINES = __doc__.split("\n")
 setup(
     # Self-descriptive entries which should always be present
     name='mp2d',
-    author='Chandler Greenwell',
+    author='Chandler S. Greenwell',
     description=DOCLINES[0],
     long_description="\n".join(DOCLINES[2:]),
     version=versioneer.get_version(),
@@ -23,7 +23,7 @@ setup(
     # Optional include package data to ship with your package
     # Comment out this line to prevent the files from being packaged with your software
     # Extend/modify the list to include/exclude other items as need be
-    package_data={'mp2d': ["data/*.dat"]
+    package_data={'mp2d': ["data/*.txt"]
                   },
 
     # Additional entries you may want simply uncomment the lines you want and fill in the data
@@ -34,9 +34,9 @@ setup(
     #            'Mac OS-X',
     #            'Unix',
     #            'Windows'],            # Valid platforms your code works on, adjust to your flavor
-    # python_requires=">=3.5",          # Python version restrictions
+    python_requires=">=3.6",          # Python version restrictions
 
     # Manual control if final package is compressible or not, set False to prevent the .egg from being made
-    # zip_safe=False,
+    zip_safe=False,
 
 )

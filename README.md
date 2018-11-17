@@ -8,7 +8,7 @@ Dispersion correction for MP2
 
 ### Copyright
 
-Copyright (c) 2018, Chandler Greenwell
+Copyright (c) 2018, Chandler S. Greenwell
 
 
 #### Acknowledgements

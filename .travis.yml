@@ -41,7 +41,7 @@ install:
 
     # Build and install package
   - conda build --python=$PYTHON_VER devtools/conda-recipe
-  - conda install --use-local mp2d
+  - conda install --use-local mp2d -c psi4
 
 
 script:

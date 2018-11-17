@@ -9,6 +9,7 @@ from __future__ import absolute_import
 
 # Add imports here
 from .mp2d import *
+from .exceptions import DataUnavailableError
 
 # Handle versioneer
 from ._version import get_versions

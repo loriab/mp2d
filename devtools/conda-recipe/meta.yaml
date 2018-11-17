@@ -14,7 +14,9 @@ requirements:
     - setuptools
 
   run:
+    - numpy
     - python
+    - qcelemental
 
 test:
   requires:
